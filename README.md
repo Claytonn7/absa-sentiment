@@ -1,3 +1,3 @@
-# Absa-sentiment
+# ABSA Analysis
 
-For aspect based sentiment analysis. Loaded a model trained on ~124M tweets from January 2018 to December 2021 from Huggingface. Outputs the sentiment of multiple aspects, along with its score.
+Simple script for aspect based sentiment analysis. Utilized a pre-trained model based on BERT. Tested it on SemEval 2014 Task 4 database, which contains domain specific datasets for laptops and restaraunts. Accuracy score was 94.49 percent with weighted F1 score and precision both being at 94 percent.
